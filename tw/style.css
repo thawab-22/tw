@@ -1,0 +1,54 @@
+@charset"utf-8;
+*{
+	margin: 0;
+	padding: 0;
+ }
+ nav-area{
+ 	width: 80%;
+ 	background-color: #4682B4;
+ 	text-align: center;
+ }
+a {
+	display: inline-block; 
+	font-size: 35px;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+    background-color: #FFFFE0;
+}
+li{
+
+	float: left;
+}
+li a {
+    display:block; 
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 16px ;
+    color: black;
+}
+li a:hover{
+	background-color: #FFF8DC;
+}
+#UB-Logo-blue{
+	width: 100px;
+	float: center;
+}
+input 
+{
+	background: #fff;
+	width: 150px;
+	height: 50px;
+	border: none;
+	outline: none;
+	padding: 0 25px;
+	border-radius: 25px  25px 25px 25px;
+	position: relative;
+	cursor:pointer;
+	background: #4682B4;
+}
